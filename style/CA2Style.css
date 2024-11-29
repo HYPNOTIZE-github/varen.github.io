@@ -1,0 +1,75 @@
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #333;
+  padding: 20px ;
+
+  
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+.bar{
+  list-style: none;
+  display: flex;
+   margin: 20px;
+   gap:80px;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap; 
+}
+
+
+.link a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.4em;
+  transition: color 0.3s ease;
+  text-align: center;
+
+}
+
+.link a:hover {
+  color: #ff6347;
+}
+.title {
+  color: white;
+  margin-top: 20px;
+  font-size: 2.5em; 
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+#image {
+  padding-right: 150px;
+}
+.row{
+	margin: 70px;
+	min-height: 70px;
+	justify-content: space-between; /* puts space between grid */
+}
+/*product name text*/
+.card-title{
+	font-family:Helvetica;
+}
+/*product price text */
+.card-text{
+	color: green;
+	text-align: center;
+	font-family:Lucida Handwriting;
+	font-weight: bold;
+}
+/* allow card title text to overflow */
+.card-title{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
